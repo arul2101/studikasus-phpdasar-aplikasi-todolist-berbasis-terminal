@@ -1,7 +1,7 @@
 <?php
 
     // Logic untuk menambahkan Todolist
-    function addTodoList() {
+    function addTodoList(string $todo) {
         global $todolist;
         
         $number = sizeof($todolist) + 1;
